@@ -49,14 +49,14 @@ body {
 }
 
 .hero-strong-text, .hero-sub-text, .button, .hero-image {
-    margin: 6px 0px;
+    margin: 10px 0px;
 }
 
 .hero-strong-text {
     width: 35vw;
     color: white;
     font-weight: 1000;
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .hero-sub-text {
@@ -181,4 +181,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-text {
+    color: white;
+    padding: 8px;
 }
