@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif
+}
+
+.header-links {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.header, .hero {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,0,0,1) 35%, rgba(54,128,204,1) 100%);
+}
+
+.header {
+    padding: 48px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links-wrap {
+    display: flex;
+    gap: 32px;
+}
