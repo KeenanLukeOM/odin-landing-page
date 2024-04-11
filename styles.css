@@ -109,3 +109,24 @@ body {
 .random-image {
     border-radius: 15px;
 }
+
+/* Quote section */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 48px 600px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.testimonial-text-lower {
+    align-self: flex-end;
+}
