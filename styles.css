@@ -99,6 +99,7 @@ body {
 .random-information-cards {
     display: flex;
     justify-content: space-around;
+    margin: 24px;
 }
 
 .random-text{
