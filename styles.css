@@ -12,12 +12,12 @@ body {
 .header-links {
     text-decoration: none;
     color: white;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .header, .hero, .footer {
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,0,0,1) 35%, rgba(54,128,204,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,0,0,1) 35%, rgba(54,128,204,1) 100%);
 }
 
 .header {
@@ -53,21 +53,21 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,0,0,1) 35%, rgba(
 }
 
 .hero-strong-text {
-    width: 75%;
+    width: 35vw;
     color: white;
     font-weight: 1000;
     font-size: 45px;
 }
 
 .hero-sub-text {
-    width: 65%;
+    width: 30vw;
     color:lightgray;
     font-size: 21px;
 }
 
 .hero-image {
     display: flex;
-    width: 50vw;
+    width: 35vw;
     border-radius: 25px;
 }
 
@@ -83,4 +83,29 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,0,0,1) 35%, rgba(
     font-weight: 600;
     font-size: 21px;
     text-decoration: none;
+}
+
+/* Random information section */
+
+.random-header {
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px
+}
+
+.random-information-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.random-text{
+    width: 300px;
+    text-align: center;
+}
+
+.random-image {
+    border-radius: 15px;
 }
