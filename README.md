@@ -5,3 +5,7 @@ This project aims to demonstrate HTML, CSS and flex capabilities through the cre
 https://www.theodinproject.com/lessons/foundations-landing-page
 
 This site is strictly utilized for educational purposes; Balatro, and all it's associated content and visuals are in no way affiliated with 0xKLOM.
+
+You can find a live-preview of the site at the following link:
+
+https://keenanlukeom.github.io/odin-landing-page/
